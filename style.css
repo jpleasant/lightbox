@@ -1,0 +1,43 @@
+body {
+    background: orange;
+}
+
+#modal {
+   position: fixed;
+   display:none;
+   z-index: 1;
+   background:rgba(0,0,0,0.9);
+   height: 100%;
+   width:100%;
+   padding-top: 100px;
+   top:0;
+   left:0;
+   cursor: pointer;
+}
+
+#modal .nav {
+    position: fixed;
+    background:gray;
+    width: 5%;
+    
+}
+
+#modal .nav:hover {
+    background:white;
+}
+
+#modal .prev {
+    top:20%;
+    left:0;
+    height: 80%;
+}
+
+#modal .next {
+    top:20%;
+    right:0;
+    height: 80%;
+}
+
+#modal .topLine {
+    
+}
