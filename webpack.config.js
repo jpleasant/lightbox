@@ -1,4 +1,6 @@
-module.exports = {
+const path = require('path');
+
+const config = {
  
     entry: "./entry.js",
     output: {
@@ -6,12 +8,13 @@ module.exports = {
         filename: "index.js"
     },
     module: {
-        loaders: [
-            //loaders plural when using multiple, singular when not
+        rules: [
+         
+            { test: /\.css$/, use: 'css-loader' },
             {
+                
                 test: /\.js$/,
-                exlude: 'node_modules/',
-                loader: 'babel-loader',
+                use: 'babel-loader',
                 query: {
                     presets: ['es2015', 'react']
                 }
@@ -19,8 +22,7 @@ module.exports = {
                 ]
     },
     
-    resolve: {
-        extensions: ['', '.js']
-    }
 };
+
+module.exports = config;
 

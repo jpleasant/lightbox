@@ -2,7 +2,7 @@
   "name": "lightbox",
   "version": "1.0.0",
   "description": "lightbox test",
-  "main": "entry.js",
+  "main": "vendor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,9 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.27.3",
+    "style-loader": "^0.14.1"
   }
 }
