@@ -9,4 +9,4 @@ btn2.addEventListener("click", lb.close);
 
 
 
-$("#modal").css("backgroundColor", "red");
+$("#modal").css("backgroundColor", "yellow");
