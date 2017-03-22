@@ -1,0 +1,28 @@
+{
+  "name": "lightbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "babel-preset-latest": "^6.24.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpleasant/lightbox.git"
+  },
+  "author": "jpleasant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpleasant/lightbox/issues"
+  },
+  "homepage": "https://github.com/jpleasant/lightbox#readme"
+}
